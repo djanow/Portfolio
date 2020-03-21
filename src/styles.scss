@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+/* Variables and Mixins */
+@import "./scss/_variables.scss";
+/* font and Mixins */
+@import "./scss/_font.scss";
+
+body {
+    font-family: 'Playfair Display';
+    font-size: 1em;
+}
