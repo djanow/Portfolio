@@ -1,11 +1,11 @@
+/* design System */
+@import "./scss/ds.scss";
 
-
-/* Variables and Mixins */
-@import "./scss/_variables.scss";
-/* font and Mixins */
-@import "./scss/_font.scss";
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-    font-family: 'Playfair Display';
-    font-size: 1em;
+  font-family: "Playfair Display";
+  font-size: 1em;
 }
