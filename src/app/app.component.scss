@@ -1,0 +1,24 @@
+/* design System */
+@import "../scss/ds.scss";
+
+.parallax-into {
+  h4 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px white;
+  }
+
+  .skills {
+    margin-left: 4em;
+  }
+
+  @media all and (min-width: 600px) {
+    h2 {
+      font-size: 2.625em;
+    }
+  }
+}

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-import Typewriter from 'typewriter-effect/dist/core';
 
 @Component({
   selector: 'app-parallax-head',
@@ -12,11 +11,6 @@ export class ParallaxHeadComponent implements OnInit {
 
   ngOnInit() {
     this.parallaxInit();
-    new Typewriter('#typewriter', {
-      strings: ['Angular 9', 'Node', 'Bootstrap 4', 'D3', 'Sass'],
-      loop: true,
-      autoStart: true,
-    });
   }
   parallaxInit() {
     $(document).ready(function () {

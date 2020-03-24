@@ -1,4 +1,3 @@
-
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
@@ -13,22 +12,9 @@
 section.module:last-child {
   margin-bottom: 0;
 }
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
 section.module.content {
   padding: 40px 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
 section.module.content:last-child {
   margin-bottom: 60px;
@@ -37,43 +23,17 @@ section.module.parallax {
   padding: 240px 0;
   background-position: 0 0;
 }
-section.module.parallax h4 {
-  color: #FFF;
-  font-size: 48px;
-  line-height: 1;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 2px white;
-}
-.skills {
-  margin-left: 4em;
-}
-section.module.parallax-1 {
+section.module.parallax-img {
   background-image: url("../../../../assets/images/parallax/marseille.jpg");
   background-position: 50% 0;
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-//   background-color: rgba(0, 123, 255, 0.4);
   background-blend-mode: screen;
 }
+
 @media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
   section.module.parallax {
     padding: 300px 0;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
   }
 }

@@ -24,18 +24,33 @@ export class SkillsComponent implements OnInit {
     },
     {
       title: "D3",
-      content: `using D3`,
-      image: 'https://www.blogduwebdesign.com/wp-content/uploads/2019/02/logo-sass_m.jpg'
+      content: `using D3 to made all kind of chart multiple lines chart, donut, bar chart ...`,
+      image: 'assets/images/skills/D3.png'
     },
     {
-      title: "D3",
-      content: `using D3`,
-      image: 'https://www.blogduwebdesign.com/wp-content/uploads/2019/02/logo-sass_m.jpg'
+      title: "Bootstrap 4",
+      content: `using Bootstrap 4 for Responsive Design: Flexbox, col and other class`,
+      image: 'assets/images/skills/bootstrap.png'
     },
     {
-      title: "D3",
-      content: `using D3`,
-      image: 'https://www.blogduwebdesign.com/wp-content/uploads/2019/02/logo-sass_m.jpg'
+      title: "HTML5",
+      content: `Using all last features of html5`,
+      image: 'assets/images/skills/html5.svg'
+    },
+    {
+      title: "Git",
+      content: `using Git for versioning`,
+      image: 'assets/images/skills/git.png'
+    },
+    {
+      title: "Protractor",
+      content: `using protractor for test E2E`,
+      image: 'assets/images/skills/protractor.svg'
+    },
+    {
+      title: "OpenCV",
+      content: `using OpenCV for image Analysis`,
+      image: 'assets/images/skills/opencv.png'
     },
   ]
   constructor() { }
