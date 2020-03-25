@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "sass": "node-sass ./src/scss/_ds.scss -o ./src/assets/css/ds.css",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

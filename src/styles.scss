@@ -1,9 +1,10 @@
+@import "./assets/css/ds.css";
 
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display" !important;
   font-size: 1em;
 }

@@ -1,0 +1,166 @@
+.gris_sable_light {
+  color: #ede8e6 !important; }
+
+.gris_sable_light_bg {
+  background-color: #ede8e6 !important; }
+
+.gris_sable_dark {
+  color: #e4d8c4 !important; }
+
+.gris_sable_dark_bg {
+  background-color: #e4d8c4 !important; }
+
+.violet_light {
+  color: #6d4ca7 !important; }
+
+.violet_light_bg {
+  background-color: #6d4ca7 !important; }
+
+.violet_dark {
+  color: #4b218e !important; }
+
+.violet_dark_bg {
+  background-color: #4b218e !important; }
+
+.rose_light {
+  color: #f4b5d4 !important; }
+
+.rose_light_bg {
+  background-color: #f4b5d4 !important; }
+
+.rose_dark {
+  color: #d81e88 !important; }
+
+.rose_dark_bg {
+  background-color: #d81e88 !important; }
+
+.jaune_light {
+  color: #f4ec5b !important; }
+
+.jaune_light_bg {
+  background-color: #f4ec5b !important; }
+
+.jaune_dark {
+  color: #f9bd00 !important; }
+
+.jaune_dark_bg {
+  background-color: #f9bd00 !important; }
+
+.bleu_turquoise_light {
+  color: #5ad5d9 !important; }
+
+.bleu_turquoise_light_bg {
+  background-color: #5ad5d9 !important; }
+
+.bleu_turquoise_dark {
+  color: #006374 !important; }
+
+.bleu_turquoise_dark_bg {
+  background-color: #006374 !important; }
+
+.bleu_light {
+  color: #4283d1 !important; }
+
+.bleu_light_bg {
+  background-color: #4283d1 !important; }
+
+.bleu_dark {
+  color: #1A283E !important; }
+
+.bleu_dark_bg {
+  background-color: #1A283E !important; }
+
+.rose_chair_light {
+  color: #f0b7a5 !important; }
+
+.rose_chair_light_bg {
+  background-color: #f0b7a5 !important; }
+
+.rose_chair_dark {
+  color: #cca196 !important; }
+
+.rose_chair_dark_bg {
+  background-color: #cca196 !important; }
+
+.vert_positif {
+  color: #238500 !important; }
+
+.vert_positif_bg {
+  background-color: #238500 !important; }
+
+.rouge_negatif {
+  color: #eb0000 !important; }
+
+.rouge_negatif_bg {
+  background-color: #eb0000 !important; }
+
+.bleu_texte {
+  color: #3175c9 !important; }
+
+.bleu_texte_bg {
+  background-color: #3175c9 !important; }
+
+.alerte_vert_positif {
+  color: #bddab2 !important; }
+
+.alerte_vert_positif_bg {
+  background-color: #bddab2 !important; }
+
+.alerte_rouge_negatif {
+  color: #f9b2b2 !important; }
+
+.alerte_rouge_negatif_bg {
+  background-color: #f9b2b2 !important; }
+
+.alerte_bleu_information {
+  color: #3175c9 !important; }
+
+.alerte_bleu_information_bg {
+  background-color: #3175c9 !important; }
+
+.alerte_jaune_attention {
+  color: #f9f5ad !important; }
+
+.alerte_jaune_attention_bg {
+  background-color: #f9f5ad !important; }
+
+.blanc {
+  color: #ffffff !important; }
+
+.blanc_bg {
+  background-color: #ffffff !important; }
+
+.noir {
+  color: #222222 !important; }
+
+.noir_bg {
+  background-color: #222222 !important; }
+
+.gris_light {
+  color: #e1e1e1 !important; }
+
+.gris_light_bg {
+  background-color: #e1e1e1 !important; }
+
+.gris_dark {
+  color: #757575 !important; }
+
+.gris_dark_bg {
+  background-color: #757575 !important; }
+
+.gris_background {
+  color: #f6f6f6 !important; }
+
+.gris_background_bg {
+  background-color: #f6f6f6 !important; }
+
+@font-face {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  src: url("../font/PlayfairDisplay-VariableFont_wght.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+  src: url("../font/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype"); }

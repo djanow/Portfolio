@@ -1,3 +1,5 @@
+@import "../../../../scss/variables";
+
 .navbar-scroll {
   background-color: rgba(0, 123, 255, 0.4);
   transition: background-color 0.5s;
@@ -8,5 +10,5 @@
   }
 }
 .navbar-brand {
-  // color: $blanc;
+  color: $blanc !important;
 }
