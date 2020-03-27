@@ -47,11 +47,11 @@ export class SkillsComponent implements OnInit {
       content: `using protractor for test E2E`,
       image: 'assets/images/skills/protractor.svg'
     },
-    {
-      title: "OpenCV",
-      content: `using OpenCV for image Analysis`,
-      image: 'assets/images/skills/opencv.png'
-    },
+    // {
+    //   title: "OpenCV",
+    //   content: `using OpenCV for image Analysis`,
+    //   image: 'assets/images/skills/opencv.png'
+    // },
   ]
   constructor() { }
 

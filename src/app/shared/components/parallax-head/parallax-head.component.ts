@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import * as $ from 'jquery';
 
 @Component({
@@ -7,10 +7,14 @@ import * as $ from 'jquery';
   styleUrls: ['./parallax-head.component.scss']
 })
 export class ParallaxHeadComponent implements OnInit {
+  @Input() imagesParallax = "../../../../assets/images/parallax/marseille.jpg"; 
+
   constructor() { }
 
   ngOnInit() {
     this.parallaxInit();
+    console.log(this.imagesParallax);
+    
   }
   parallaxInit() {
     $(document).ready(function () {
