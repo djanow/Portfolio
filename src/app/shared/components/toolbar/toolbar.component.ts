@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-toolbar',
@@ -8,8 +9,12 @@ import * as $ from 'jquery';
 })
 export class ToolbarComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private vps: ViewportScroller) { }
+  nav = {
+    home: false,
+    skills: false,
+    contact: false
+  }
   ngOnInit() {
 
     //menu transition js
@@ -31,8 +36,15 @@ export class ToolbarComponent implements OnInit {
         }
       })
     })
-
+  }
+  scroll(anchor) {
+    this.vps.scrollToAnchor(anchor)
+    this.nav = {
+      home: false,
+      skills: false,
+      contact: false
+    }
+    this.nav[anchor] = true;
 
   }
-
 }
