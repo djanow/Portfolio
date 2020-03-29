@@ -13,9 +13,7 @@ export class ParallaxHeadComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.parallaxInit();
-    console.log(this.imagesParallax);
-    
+    this.parallaxInit();    
   }
   parallaxInit() {
     $(document).ready(function () {
