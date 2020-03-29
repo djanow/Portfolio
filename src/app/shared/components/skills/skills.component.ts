@@ -9,12 +9,12 @@ export class SkillsComponent implements OnInit {
   public listSkills = [
     {
       title: "Angular 9",
-      content: `using last version of angular and all is tool like: RxJs, Animation, Directive, Component, Pipe, Angular-cli...`,
+      content: `Using last version of angular and all is tool like: RxJs, Animation, Directive, Component, Pipe, Angular-cli...`,
       image: 'assets/images/skills/angular.svg'
     },
     {
       title: "Node",
-      content: `last version of node in typescript with express for back-end services`,
+      content: `Last version of node in typescript with express for back-end services`,
       image: 'https://storage.semalt.com/uploads/articles/6e222187f3ca196b689b9d3984685dc91.png'
     },
     {
@@ -24,12 +24,12 @@ export class SkillsComponent implements OnInit {
     },
     {
       title: "D3",
-      content: `using D3 to made all kind of chart multiple lines chart, donut, bar chart ...`,
+      content: `Using D3 to made all kind of chart multiple lines chart, donut, bar chart ...`,
       image: 'assets/images/skills/D3.png'
     },
     {
       title: "Bootstrap 4",
-      content: `using Bootstrap 4 for Responsive Design: Flexbox, col and other class`,
+      content: `Using Bootstrap 4 for Responsive Design: Flexbox, col and other class`,
       image: 'assets/images/skills/bootstrap.png'
     },
     {
@@ -39,17 +39,17 @@ export class SkillsComponent implements OnInit {
     },
     {
       title: "Git",
-      content: `using Git for versioning`,
+      content: `Using Git for versioning`,
       image: 'assets/images/skills/git.png'
     },
     {
       title: "Protractor",
-      content: `using protractor for test E2E`,
+      content: `Using protractor for test E2E`,
       image: 'assets/images/skills/protractor.svg'
     },
     {
       title: "OpenCV",
-      content: `using OpenCV for image Analysis`,
+      content: `Using OpenCV for image Analysis`,
       image: 'assets/images/skills/opencv.png'
     },
   ]
