@@ -9,7 +9,7 @@ export class SkillsComponent implements OnInit {
   public listSkills = [
     {
       title: "Angular 9",
-      content: `Using last version of angular and all is tool like: RxJs, Animation, Directive, Component, Pipe, Angular-cli...`,
+      content: `Using last version of angular and all its tools like: RxJs, Animation, Directive, Component, Pipe, Angular-cli...`,
       image: 'assets/images/skills/angular.svg'
     },
     {
@@ -24,7 +24,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       title: "D3",
-      content: `Using D3 to made all kind of chart multiple lines chart, donut, bar chart ...`,
+      content: `Using D3 to make all kinds of charts: multiple lines chart, donut, bar chart etc.`,
       image: 'assets/images/skills/D3.png'
     },
     {
@@ -44,7 +44,7 @@ export class SkillsComponent implements OnInit {
     },
     {
       title: "Protractor",
-      content: `Using protractor for test E2E`,
+      content: `Using protractor for end to end test`,
       image: 'assets/images/skills/protractor.svg'
     },
     {
