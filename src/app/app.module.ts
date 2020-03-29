@@ -8,6 +8,7 @@ import { ToolbarComponent } from './shared/components/toolbar/toolbar.component'
 import { ParallaxHeadComponent } from './shared/components/parallax-head/parallax-head.component';
 import { SkillsComponent } from './shared/components/skills/skills.component';
 import { SlideshowComponent } from './shared/components/slideshow/slideshow.component';
+import { ExperienceComponent } from './shared/components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SlideshowComponent } from './shared/components/slideshow/slideshow.comp
     ToolbarComponent,
     ParallaxHeadComponent,
     SkillsComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

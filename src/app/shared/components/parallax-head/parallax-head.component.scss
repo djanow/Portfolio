@@ -20,20 +20,20 @@ section.module.content:last-child {
   margin-bottom: 60px;
 }
 section.module.parallax {
-  padding: 240px 0;
+  padding: 25% 0;
   background-position: 0 0;
 }
 section.module.parallax-img {
   // background-image: url("../../../../assets/images/parallax/marseille.jpg");
   background-position: 50% 0;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: screen;
 }
 
-@media all and (min-width: 600px) {
-  section.module.parallax {
-    padding: 300px 0;
-  }
-}
+// @media all and (min-width: 600px) {
+//   section.module.parallax {
+//     padding: 300px 0;
+//   }
+// }

@@ -8,12 +8,15 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./toolbar.component.scss']
 })
 export class ToolbarComponent implements OnInit {
+  navExpand = false;
 
   constructor(private vps: ViewportScroller) { }
   nav = {
     home: false,
     skills: false,
-    contact: false
+    drawing: false,
+    contact: false,
+    experience: false
   }
   ngOnInit() {
 
@@ -42,9 +45,13 @@ export class ToolbarComponent implements OnInit {
     this.nav = {
       home: false,
       skills: false,
-      contact: false
+      drawing: false,
+      contact: false,
+      experience: false
     }
     this.nav[anchor] = true;
-
+  }
+  expandNav() {
+    this.navExpand = !this.navExpand;
   }
 }

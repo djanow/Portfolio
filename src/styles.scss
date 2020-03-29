@@ -3,8 +3,15 @@
 html {
   position: relative;
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Playfair Display" !important;
   font-size: 1em;
+}
+.title {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.25rem;
+  padding-top: 1em;
 }

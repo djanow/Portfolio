@@ -2,10 +2,10 @@
     <a class="navbar-brand">Jean Moreau</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
         aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span (click)="expandNav()" class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <div class="collapse navbar-collapse" [ngClass]="{'d-block': navExpand}">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item" [ngClass]="{active: nav['home']}">
                 <a class="nav-link" (click)="scroll('home')">Home </a>
@@ -14,7 +14,13 @@
                 <a class="nav-link" (click)="scroll('skills')">Skills</a>
             </li>
             <li class="nav-item" [ngClass]="{active: nav['contact']}">
-                <a class="nav-link" (click)="scroll('contact')">Contact</a>
+                <a class="nav-link" (click)="scroll('contact')">CV</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: nav['experience']}">
+                <a class="nav-link" (click)="scroll('experience')">Experience</a>
+            </li>
+            <li class="nav-item" [ngClass]="{active: nav['drawing']}">
+                <a class="nav-link" (click)="scroll('drawing')">Drawing</a>
             </li>
         </ul>
     </div>

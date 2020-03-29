@@ -8,6 +8,7 @@ import * as $ from 'jquery';
 })
 export class ParallaxHeadComponent implements OnInit {
   @Input() imagesParallax = "../../../../assets/images/parallax/marseille.jpg"; 
+  @Input() paddingPercent = "30"; 
 
   constructor() { }
 
