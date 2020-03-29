@@ -14,7 +14,7 @@ export class SlideshowComponent implements OnInit {
     },
     {
       url: 'assets/images/dessin/winstonchurchill.jpg',
-      caption: 'Winston Churchill Quote'
+      caption: 'Winston Churchill Quotes'
     },
     {
       url: 'assets/images/dessin/rootheart.jpg',
